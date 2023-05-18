@@ -5,10 +5,10 @@ export default function App() {
 
   return (
     
-      <Container>
+      <Container nome="Helio">
              <h1>bla bla vla</h1>
              <Card text="Novo Texto"/>
-
+blblbl
       </Container>
   )
 }
