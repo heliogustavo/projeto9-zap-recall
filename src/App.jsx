@@ -1,20 +1,21 @@
-import styled from 'styled-components'
+import styled from "styled-components"
+import Topo from "./Topo"
+import ContainerPerguntas from "./ContainerPerguntas"
 
 
 export default function App() {
 
   return (
     
-      <Container nome="Helio">
-             <h1>bla bla vla</h1>
-             <Card text="Novo Texto"/>
-blblbl
-      </Container>
+      <ContainerGeral>
+             <Topo/>
+            <ContainerPerguntas/>
+      </ContainerGeral>
   )
 }
 
-const Container = styled.div`
+const ContainerGeral = styled.div`
+    width: 500px;
+    height: 500px;
     background-color: red;
-
-
 `
